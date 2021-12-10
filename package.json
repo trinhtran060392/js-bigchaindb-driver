@@ -6,7 +6,7 @@
   "bugs": "https://github.com/bigchaindb/js-bigchaindb-driver/issues",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bigchaindb/js-bigchaindb-driver.git"
+    "url": "git+https://git@github.com:trinhtran060392/js-bigchaindb-driver.git"
   },
   "license": "Apache-2.0",
   "author": "BigchainDB",
