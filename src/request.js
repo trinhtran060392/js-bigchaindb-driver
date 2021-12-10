@@ -38,6 +38,7 @@ export default class Request {
             ...config,
             query: config.query && sanitize(config.query)
         }
+        requestConfig.headers = Object.assign(requestConfig.headers, this.node.headers)
         const apiUrl = this.node.endpoint + urlPath
         if (requestConfig.jsonBody) {
             requestConfig.headers = { ...requestConfig.headers, 'Content-Type': 'application/json' }
